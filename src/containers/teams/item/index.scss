@@ -1,0 +1,40 @@
+#team-grid {
+  margin-left: 30px!important;
+  margin-right: 30px!important;
+}
+
+.player-tile {
+  background: #fff!important;
+  border-left: 2px solid #002e53;
+  text-align: left;
+  
+  span {
+    color: #000!important;
+  }
+
+  .player-tile-subtitle {
+    display: flex;
+    align-items: center;
+  }
+
+  .player-tile-subtitle, .player-tile-subtitle span {
+    color: #a3a3a3!important;
+  }
+
+  .player-tile-subtitle span {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+}
+
+.player-tile:hover {
+  background: #002e53!important;
+
+  span {
+    color: #fff!important;
+  }
+
+  .player-tile-subtitle, .player-tile-subtitle span {
+    color: #fff!important;
+  }
+}
